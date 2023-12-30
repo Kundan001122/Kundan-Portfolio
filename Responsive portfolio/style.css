@@ -1,0 +1,1297 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    height: 100vh;
+    transition: width 7s;
+}
+
+/* Navigation bar */
+.container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.765);
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    /* position: fixed; */
+
+}
+
+/* .container{
+    position: fixed;
+} */
+
+/* Font Logo Change color */
+a{
+    color: white;
+    text-decoration: none;
+}
+.container .box {
+    /* width: 100%; */
+    width: 170px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: Helvetica;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container .box6 {
+    font-family: 'Tangerine', serif;
+    margin-right: 200px;
+    border: none;
+}
+
+.container .box:hover a {
+    
+    cursor: pointer;
+    color: rgb(206, 192, 7);
+    border-radius: 5px;
+    text-decoration: underline;
+
+}
+
+.container {
+    background: red;
+    animation: mymove 5s infinite;
+
+
+}
+
+
+@keyframes mymove {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: rgb(0, 136, 255);
+    }
+
+
+}
+
+/* Home page css through design */
+.main {
+    background-color: rgb(30, 3, 56);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    animation: mymove 7s infinite;
+}
+
+@keyframes mymove {
+    from {
+        background-color: rgb(77, 7, 82);
+    }
+}
+
+#Header {
+    text-align: center;
+    justify-content: center;
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    font-weight: Helvetica;
+
+}
+
+.main-name {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-indent: 20px;
+    font-weight: Helvetica;
+    padding-top: 150px;
+    font: 900;
+    font-style: italic;
+}
+
+
+/* End Home page css through design */
+
+
+
+
+/* About me */
+.about-page-main {
+    height: 600px;
+    display: flex;
+    padding: 10px;
+    background-image: url(image/z1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 130px; */
+    background-position: center;
+    animation-name: slide;
+    animation-duration: 8s;
+    animation-iteration-count: infinite; 
+}
+@keyframes slide{
+    0%{
+        background-image: url(image/F1.webp);
+    }
+    50%{
+        background-image: url(image/F2.jpg);
+    }
+    75%{
+        background-image: url(image/Flower.jpeg);
+    }
+}
+
+.about2 h1 {
+    background-color: blue;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 5px; */
+
+    
+}
+
+.image img {
+    border-radius: 1rem;
+    border: 1px solid red;
+    height: 350px;
+    margin-left: 80px;
+
+
+}
+
+
+.about-page-main p {
+    padding-top: 15px;
+    margin-left: 90px;
+    border-radius: 14px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(110, 208, 6);
+    width: 80%;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+    justify-items: center;
+    font-size: 23px;
+    text-align: justify;
+
+
+}
+
+/*End About me */
+button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+    text-align: justify;
+}
+.paragraph button {
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 17px;
+    height: 50px;
+    width: 30%;
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid red;
+   
+}
+
+.paragraph button:hover {
+
+    color:blueviolet;
+    font-style: italic;
+    
+}
+
+/* skill section start  */
+
+/* .skilla{
+    background-color: aqua;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+} */
+.thirdbox1 {
+    background-color: rgb(20, 2, 38);
+    
+    
+}
+
+.portfoliomain1 {
+    margin: 5px;
+    width: 25%;
+    /* height: 340px; */
+    height: 475px;
+    margin-top: 15px;
+    border: 1px solid rgba(183, 180, 6, 0.791);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 3px;
+    border-bottom-color: rgba(137, 43, 226, 0.577);
+    border-top-color: rgb(178, 15, 72);
+    border-left-color: rgb(9, 192, 24);
+    border-right-color: rgb(9, 98, 161);
+    /* border: 2px solid rgba(101, 8, 111, 0.912);
+        border-style:dotted; */
+    /* background-color: rgb(30, 3, 56); */
+    background-color: rgba(20, 4, 22, 0.823);
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.image7 {
+
+    /* background-image: url(image/3.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 260px;
+}
+
+.text4 {
+    /* background-color: rgba(160, 70, 15, 0.294); */
+    background-size: 100% 100%;
+    height: 155px;
+    text-align: center;
+   
+    font-style: italic;
+}
+
+.view2 {
+    border: 1px solid rgb(0, 162, 255);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 3px;
+    border-bottom-color: blueviolet;
+    border-top-color: rgb(7, 121, 182);
+    border-left-color: darkmagenta;
+    border-right-color: lightseagreen;
+    /* border: 1px solid rgb(158, 59, 59); */
+
+    border-top-width: 8px;
+    margin-left: 15px;
+}
+
+.view3 {
+    border: 1px solid rgb(0, 162, 255);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 3px;
+    border-bottom-color: blueviolet;
+    border-top-color: rgb(7, 121, 182);
+    border-left-color: darkmagenta;
+    border-right-color: lightseagreen;
+    border-top-width: 8px;
+    margin-left: 15px;
+}
+
+.view8 {
+    border: 1px solid rgb(0, 162, 255);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 3px;
+    border-bottom-color: blueviolet;
+    border-top-color: rgb(7, 121, 182);
+    border-left-color: darkmagenta;
+    border-right-color: lightseagreen;
+    border-top-width: 8px;
+    margin-left: 35px;
+
+}
+
+.view9 {
+    border: 1px solid rgb(0, 162, 255);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 3px;
+    border-bottom-color: blueviolet;
+    border-top-color: rgb(7, 121, 182);
+    border-left-color: darkmagenta;
+    border-right-color: lightseagreen;
+    border-top-width: 8px;
+    margin-left: 15px;
+
+}
+
+.view10 {
+    border: 1px solid rgb(0, 162, 255);
+    border-radius: 10px;
+    border-style: double;
+    border-width: 3px;
+    border-bottom-color: blueviolet;
+    border-top-color: rgb(7, 121, 182);
+    border-left-color: darkmagenta;
+    border-right-color: lightseagreen;
+    border-top-width: 8px;
+    margin-left: 90px;
+    width: 50%;
+}
+
+.class4 {
+    margin: 5px;
+}
+
+.view7 {
+    padding: 5px;
+}
+
+.view {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    word-spacing: 2px;
+    /* margin-top: 20px; */
+    padding: 30px;
+
+}
+
+.view7 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    word-spacing: 2px;
+}
+
+.veiw1 {
+    padding: 30px;
+    font-size: 21px;
+    
+    font-style: italic;
+    color: rgb(139, 134, 139);
+}
+
+.veiw6 {
+    padding: 10px;
+    font-size: 21px;
+   
+    font-style: italic;
+    color: rgb(139, 134, 139);
+}
+
+.portfoliomain2 {
+    margin: 5px;
+    width: 25%;
+    height: 420px;
+    border: 1px solid red;
+}
+
+.image8 {
+
+    /* background-image: url(image/g9.gif); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 260px;
+}
+
+.portfoliomain3 {
+    margin: 5px;
+    width: 25%;
+    height: 415px;
+    border: 1px solid red;
+}
+
+.image9 {
+
+    /* background-image: url(image/skill2.webp); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 260px;
+}
+
+/* skill section End  */
+
+
+/* Portfolio Section start css */
+/* button design */
+.button-left button a{
+    color: white;
+    font-size: 16px;
+}
+ .button-left button{
+    width: 50%;
+    height: 40px;
+    margin-left: 13vh;
+    background-color: blue;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+.button-left2 button a{
+    color: white;
+    font-size: 16px;
+}
+ .button-left2 button{
+    width: 50%;
+    height: 40px;
+    margin-left: 13vh;
+    background-color: blue;
+    border-radius: 5px;
+    margin-top: 3vh;
+    margin-top: -5px;
+}
+
+.button-left3 button a{
+    color: white;
+    font-size: 16px;
+}
+ .button-left3 button{
+    width: 50%;
+    height: 40px;
+    margin-left: 13vh;
+    background-color: blue;
+    border-radius: 5px;
+    margin-top: 2vh;
+}
+
+.button-left4 button a{
+    color: white;
+    font-size: 16px;
+}
+ .button-left4 button{
+    width: 50%;
+    height: 40px;
+    margin-left: 13vh;
+    background-color: blue;
+    border-radius: 5px;
+    margin-top: 2vh;
+}
+
+.button-left5 button a{
+    color: white;
+    font-size: 16px;
+}
+ .button-left5 button{
+    width: 50%;
+    height: 40px;
+    margin-left: 13vh;
+    background-color: blue;
+    border-radius: 5px;
+    margin-top: 2vh;
+}
+
+.button-left6 button a{
+    color: white;
+    font-size: 16px;
+}
+ .button-left6 button{
+    width: 50%;
+    height: 40px;
+    margin-left: 13vh;
+    background-color: blue;
+    border-radius: 5px;
+    margin-top: -1vh;
+}
+/* button design */
+
+.portfoliomain {
+    margin: 5px;
+    width: 25%;
+    height: 420px;
+    border: 1px solid rgb(0, 255, 242);
+}
+
+.image2 {
+
+    background-image: url(image/portfolioImage4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.portfoliomain p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+   
+    padding: 10px;
+}
+
+.portfoliomain .text2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+}
+
+.portfoliomain .music2 a{
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.portfoliomain .music2 {
+
+    /* margin-left: 405px; */
+
+    background-color: blue;
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid yellow;
+    height: 40px;
+    color: white;
+    background-color: rgb(226, 226, 34);
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.portfoliomain .music2:hover {
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+/* box 2 */
+.portfoliomain {
+    margin: 5px;
+    width: 25%;
+    height: 420px;
+    border: 1px solid red;
+}
+
+.image3 {
+
+    background-image: url(image/list2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.portfoliomain p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+   
+    padding: 10px;
+}
+
+.portfoliomain .text2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.portfoliomain .music2 {
+
+    margin-left: 120px;
+    background-color: blue;
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid yellow;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.portfoliomain .music2:hover {
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+/* box3 */
+.portfoliomain {
+    margin: 5px;
+    width: 25%;
+    height: 420px;
+    border: 1px solid rgb(0, 255, 30);
+    border-style: double;
+    border-top-color: blueviolet;
+    border-bottom-color: teal;
+    border-left-color: crimson;
+    border-right-color: gold;
+    border-width: 7px;
+    border-radius: 10px;
+}
+
+.image4 {
+
+    background-image: url(image/college.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+
+}
+
+.imageone {
+
+    background-image: url(image/portfolioImage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+
+}
+
+.imagetwo {
+
+    background-image: url(image/portfolioImage3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+
+}
+
+.imagethree {
+
+    background-image: url(image/portfolioImage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+
+}
+
+.portfoliomain p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+   
+    padding: 10px;
+}
+
+.portfoliomain .text2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.portfoliomain .music2 {
+
+    margin-left: 105px;
+    background-color: blue;
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid yellow;
+    height: 40px;
+    color: white;
+
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.portfoliomain .music2:hover {
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+/* box3close */
+
+/* Box */
+.thirdbox {
+    display: flex;
+    justify-content: center;
+
+}
+
+.thirdbox1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -50px;
+
+}
+
+/* <!-- Start Education section --> */
+.edusect {
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: Helvetica;
+
+}
+
+.educatemain {
+    font-weight: Helvetica;
+    background-color: rgb(20, 2, 38);
+    padding: 5px;
+}
+.aligntext{
+    font-size: 19px;
+    margin: 7px;
+    text-align: center;
+    font-weight: Helvetica;
+}
+
+.exp {
+   
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+
+}
+
+.educatecen p {
+    text-align: justify;
+    /* margin: 5px; */
+    color: rgb(227, 223, 223);
+    text-align: center;
+    font-size: 10px;
+   
+}
+
+.educat h2 {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    
+
+}
+
+.educat1 {
+    height: 210px;
+    width: 50%;
+    border: 1px solid red;
+    margin-left: 320px;
+    background-color: rgba(20, 4, 22, 0.823);
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 7px;
+    /* word-spacing: 3px; */
+}
+
+/* <!-- Start work experiance  section --> */
+.edusect {
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+
+}
+
+.educatemain {
+    background-color: rgb(20, 2, 38);
+    /* padding: 5px; */
+}
+
+
+
+.educatecen p {
+    color: white;
+    /* text-align: center; */
+    font-size: 19px;
+    text-align: justify;
+    font-family: 'Crimson Pro', serif;
+}
+
+.educat h2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+   
+
+}
+
+.educat1 {
+    height: 210px;
+    width: 50%;
+    border: 1px solid red;
+    margin-left: 320px;
+    background-color: rgba(20, 4, 22, 0.823);
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    border-radius: 10px;
+    font-weight: Helvetica;
+    text-align: justify;
+    padding: 7px;
+    word-spacing: 3px;
+}
+.textalign2{
+    font-size: 19px;
+    margin: 7px;
+    text-align: center;
+   
+   
+   
+}
+/* End exp css */
+
+
+/* contact */
+.contactmain-form{
+    background-image: url(image/F2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.con {
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(image/F1.webp);
+    font-size: 21px;
+    height: 570px;
+    width: 40%;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.con3 h2 {
+    color: white;
+
+}
+
+textarea {
+
+    margin: 17px;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    /* border-right-color: blue;
+    border-left-color: rgb(248, 201, 16);
+    border-bottom-color: rgb(243, 42, 166);
+    border-top-color: rgb(241, 95, 16); */
+   
+}
+
+header input {
+    width: 60%;
+    height: 30px;
+    /* margin: 7px; */
+    background-color: rgb(250, 244, 235);
+ 
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    cursor: pointer;
+    border-radius: 13px;
+    color: rgb(134, 9, 9);
+    font-size: 21px;
+   
+    text-align: justify;
+
+}
+
+header button {
+    padding-left: 13%;
+    width: 40%;
+    height: 40px;
+    margin: 7px;
+    background-color: rgb(250, 244, 235);
+    /* border: double; */
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 13px;
+    color: rgb(39, 11, 11);
+    font-size: 21px;
+    border-top-right-radius: 5px;
+    border-right-color: blue;
+    border-left-color: rgb(248, 201, 16);
+    border-bottom-color: rgb(243, 42, 166);
+    border-top-color: rgb(241, 95, 16);
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    /* border-right-width: 4px; */
+    text-align: justify;
+
+}
+header button:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.cont4h1 h1 {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    font-weight: 400;
+   
+}
+
+.con3 {
+    justify-content: center;
+    display: flex;
+}
+
+/* Footer */
+.copy {
+    color: white;
+    font-weight: 400;
+    font-family: 'Crimson Pro', serif;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+  
+  
+    background-color: blue;
+    /* text-decoration: underline;
+           border-right-color: blue;
+           border-left-color: rgb(248, 201, 16);
+           border-bottom-color: rgb(243, 42, 166);
+           border-top-color: rgb(241, 95, 16);
+           border-width: 7px; */
+    font-size: 21px;
+
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Crimson Pro', serif;
+    color: yellow;
+    width: 100%;
+    height: auto;
+    text-transform: capitalize;
+    font-weight: Helvetica;
+    padding: 10px;
+    word-spacing: 3px;
+}
+
+.foot {
+    /* background-color: black; */
+    /* background-image: url(image/g9.gif);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: linear-gradient(150deg, rgb(198, 198, 7) , red, green);
+
+}
+
+.inner7 {
+    margin: 20px;
+}
+
+.inner7 ol {
+    margin: 15px;
+}
+
+/* Footer */
+
+
+/* <!-- End Education section --> */
+/* Start Media query For Responsive */
+@media(max-width: 720px) and (max-width: 1080px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: none;
+        justify-content: center;
+        justify-content: space-evenly;
+        position: sticky;
+
+    }
+
+    .container .box {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media(min-width: 720px) and (max-width: 1080px) {
+    .container {
+
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: column-reverse;
+
+    }
+
+}
+
+@media(max-width: 720px) and (max-width: 1080px) {
+    .main-name {
+        width: 100%;
+        padding-top: 60px;
+        font-size: 21px;
+
+        transform: translate(-5%, 1%);
+
+    }
+
+    .main {
+        width: 100%;
+        height: 250px;
+        /* height: auto; */
+    }
+
+    .about2 h1 {
+        width: 100%;
+        font-size: 30px;
+        
+    }
+
+    .image img {
+        transform: translate(-13%, 7%);
+        /* margin-top: -40px; */
+    }
+
+    .about-page-main {
+        height: 500px;
+    }
+
+    .portfoliomain1 {
+       height: 360px;
+        width: 100%;
+        flex-direction: column;
+        transform: translate(-1%, -2%);
+        text-align: center;
+    }
+
+    .thirdbox1 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+         /* display: none; */
+        /* transform: translate(20%, 0%); */
+       
+    }
+
+    .about-page-main {
+        background-image: none;
+        flex-direction: column;
+        transform: translate(-0%, 1%);
+        height: 650px;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: none;
+
+
+    }
+
+    .paragraph p {
+        transform: translate(-31%, 58%);
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        font-size: 17px;
+        margin-top: -423px;
+
+    }
+
+    .paragraph button {
+        width: 75%;
+        margin: 15px;
+    
+    }
+
+    .portfoliomain {
+        width: 100%;
+        flex-direction: column;
+        transform: translate(1%, 1%);
+        text-align: center;
+
+    }
+
+    .thirdbox {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        transform: translate(-2%, -0.5%);
+        border: none;
+    }
+
+    .educatemain {
+        width: 100%;
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .educat {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        transform: translate(-12%, 1%);
+    }
+
+    .educatecen p {
+        margin-left: 80px;
+        justify-content: center;
+        text-align: center;
+        text-align: justify;
+         /* transform: translate(-1%, -80%); */
+    }
+
+    .educat1 {
+        width: 85%;
+        height: auto;
+        transform: translate(-102%, 1%);
+        height: auto;
+        /* margin-left: 2px; */
+    }
+
+    .portfoliomain .music2 {
+        width: 50%;
+        /* margin-top: -15px; */
+        margin-left: 19px;
+
+    }
+
+    .portfoliomain p {
+        margin: 7px;
+        width: 100%;
+        text-align: center;
+        text-align: justify;
+    }
+
+    .margin-left  {
+        text-align: center;
+        text-align: justify;
+        color: black;
+        margin-top: px;
+    }
+    .slider-right2{
+        margin-top: 485px;
+    }
+
+    .portfoliomain {
+        height: 435px;
+    }
+
+    .con {
+        width: 100%;
+    }
+
+    fieldset input {
+        width: 80%;
+    }
+
+    fieldset button {
+        width: 90%;
+        text-align: center;
+    }
+
+    .foot {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer {
+        width: 100%;
+        flex-direction: column;
+        transform: translate(-8%, 1%);
+        text-align: center;
+        margin-left: 21px;
+    }
+    .view{
+        margin-left: -14px;
+    }
+    .view7{
+        transform: translate(-5%, -0%);
+    }
+    .view9{
+        transform: translate(12%, -0%);
+    }
+    .view10{
+        transform: translate(-10%, -0%);
+    }
+    .view8{
+        transform: translate(-11%, -0%);
+    }
+    .button-left{
+        transform: translate(-11%, -0%);
+    }
+    .button-left2{
+        transform: translate(-11%, -0%);
+    }
+    .button-left3{
+        transform: translate(-11%, -30%);
+    }
+    .button-left4{
+        transform: translate(-11%, -0%);
+    }
+    .button-left5{
+        transform: translate(-11%, -0%);
+    }
+    .button-left6{
+        transform: translate(-11%, -0%);
+    }
+    .edusect{
+        transform: translate(12%, -30%);
+        width: 100%;   
+    }
+    .edusect p{
+        transform: translate(12%, -30%);
+       font-family:sans-serif;  
+    
+       
+       word-spacing: 10;
+       font-size: 25px;
+    }
+    .aligntext{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        color: blueviolet;
+    }
+    .exp{
+        transform: translate(12%, -0%);
+    }
+    .textalign2{
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        color: blueviolet;
+       
+    }
+}
+
+/* End Start Media query For Responsive */
